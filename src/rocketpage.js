@@ -1,3 +1,5 @@
-const launch = () => true;
+import { getAllLoadableLinks } from './listeners';
 
-export default launch;
+const loadableLinks = getAllLoadableLinks(document.getElementsByTagName('a'));
+
+console.log(loadableLinks);
