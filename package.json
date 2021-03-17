@@ -1,8 +1,8 @@
 {
-  "name": "rocketpage.js",
+  "name": "jetpage.js",
   "version": "0.0.0",
-  "description": "RocketPage gives a SPA experience to your static site",
-  "main": "rocketpage.js",
+  "description": "",
+  "main": "jetpage.js",
   "scripts": {
     "test": "jest --watchAll",
     "test:coverage": "jest --coverage",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felipegs07/rocketpage.js.git"
+    "url": "git+https://github.com/felipegs07/jetpage.js.git"
   },
   "keywords": [
     "static-site",
@@ -21,9 +21,9 @@
   "author": "Felipe Gustavo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/felipegs07/rocketpage.js/issues"
+    "url": "https://github.com/felipegs07/jetpage.js/issues"
   },
-  "homepage": "https://github.com/felipegs07/rocketpage.js#readme",
+  "homepage": "https://github.com/felipegs07/jetpage.js#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.11.6",
