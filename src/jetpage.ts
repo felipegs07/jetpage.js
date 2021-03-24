@@ -4,5 +4,5 @@
 
 // console.log(loadableLinks);
 
-export const test : number = 10;
+export const test = 10;
 export default test;
