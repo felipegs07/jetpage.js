@@ -1,4 +1,4 @@
-# rocketpage.js
+# jetpage.js
 
 ## Versioning
 

@@ -1,8 +1,8 @@
 {
-  "name": "rocketpage.js",
+  "name": "jetpage.js",
   "version": "0.0.0",
-  "description": "RocketPage gives a SPA experience to your static site",
-  "main": "rocketpage.js",
+  "description": "",
+  "main": "jetpage.ts",
   "scripts": {
     "test": "jest --watchAll",
     "test:coverage": "jest --coverage",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felipegs07/rocketpage.js.git"
+    "url": "git+https://github.com/felipegs07/jetpage.js.git"
   },
   "keywords": [
     "static-site",
@@ -21,21 +21,24 @@
   "author": "Felipe Gustavo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/felipegs07/rocketpage.js/issues"
+    "url": "https://github.com/felipegs07/jetpage.js/issues"
   },
-  "homepage": "https://github.com/felipegs07/rocketpage.js#readme",
+  "homepage": "https://github.com/felipegs07/jetpage.js#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "@typescript-eslint/parser": "^3.7.0",
-    "babel-loader": "^8.1.0",
-    "eslint": "^7.9.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^24.0.1",
-    "jest": "^26.4.2",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.21",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "prettier": "2.2.1",
+    "ts-jest": "^26.5.4",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   }

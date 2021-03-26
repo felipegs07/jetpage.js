@@ -2,18 +2,18 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/rocketpage.js',
+  entry: './src/jetpage.ts',
   output: {
     path: path.join(__dirname, '/dist'),
-    filename: 'rocketpage.js',
+    filename: 'jetpage.js',
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.ts$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: 'ts-loader',
         },
       },
     ],
