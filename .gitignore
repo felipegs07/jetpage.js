@@ -4,3 +4,4 @@ dev
 dist
 package-lock.json
 notes.md
+coverage

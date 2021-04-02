@@ -1,8 +1,19 @@
-// import { getAllLoadableLinks } from './listeners';
+import { startListeners } from './core';
+import { Config } from './utils/types';
 
-// const loadableLinks = getAllLoadableLinks(document.getElementsByTagName('a'));
+export type CreateJetPage = {
+  start: (config: Config) => void;
+};
 
-// console.log(loadableLinks);
+const createJetPage = (function () {
+  return (config: Config) => {
+    return {
+      start: () => {
+        startListeners(config);
+      },
+    };
+  };
+})();
 
-export const test = 10;
-export default test;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+(window as any).createJetPage = createJetPage;
